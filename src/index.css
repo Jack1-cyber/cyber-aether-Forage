@@ -10,49 +10,49 @@ All colors MUST be HSL.
   :root {
     /* Cybersecurity Company Color Palette */
     --background: 280 100% 6%;  /* Dark Purple Background */
-    --foreground: 136 100% 88%; /* Pista Green Text */
+    --foreground: 280 15% 85%; /* Light Purple Text */
 
     --card: 0 0% 8%; /* Dark Charcoal Cards */
-    --card-foreground: 136 100% 88%;
+    --card-foreground: 280 15% 85%;
 
     --popover: 280 100% 6%;
-    --popover-foreground: 136 100% 88%;
+    --popover-foreground: 280 15% 85%;
 
-    --primary: 136 100% 72%; /* Pista Green Primary */
-    --primary-foreground: 280 100% 6%;
+    --primary: 280 35% 45%; /* Dark Matte Purple Primary */
+    --primary-foreground: 280 15% 95%;
 
     --secondary: 0 0% 15%; /* Dark Charcoal Secondary */
-    --secondary-foreground: 136 100% 88%;
+    --secondary-foreground: 280 15% 85%;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 136 50% 70%;
+    --muted-foreground: 280 20% 65%;
 
-    --accent: 136 100% 72%; /* Pista Green Accent */
-    --accent-foreground: 280 100% 6%;
+    --accent: 280 35% 45%; /* Dark Matte Purple Accent */
+    --accent-foreground: 280 15% 95%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 0 0% 25%;
     --input: 0 0% 15%;
-    --ring: 136 100% 72%;
+    --ring: 280 35% 45%;
 
     /* Custom Design Tokens */
     --cyber-purple: 280 100% 6%;
     --cyber-purple-light: 280 50% 15%;
-    --pista-green: 136 100% 72%;
-    --pista-green-glow: 136 100% 82%;
+    --dark-matte-purple: 280 35% 45%;
+    --dark-matte-purple-light: 280 25% 55%;
     --dark-charcoal: 0 0% 8%;
     --medium-charcoal: 0 0% 15%;
 
     /* Gradients */
     --gradient-cyber: linear-gradient(135deg, hsl(var(--cyber-purple)), hsl(var(--dark-charcoal)));
-    --gradient-glow: linear-gradient(135deg, hsl(var(--pista-green) / 0.2), hsl(var(--cyber-purple)));
-    --gradient-accent: linear-gradient(90deg, hsl(var(--pista-green)), hsl(var(--pista-green-glow)));
+    --gradient-glow: linear-gradient(135deg, hsl(var(--dark-matte-purple) / 0.2), hsl(var(--cyber-purple)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--dark-matte-purple)), hsl(var(--dark-matte-purple-light)));
 
     /* Shadows & Effects */
-    --shadow-cyber: 0 20px 40px -10px hsl(var(--pista-green) / 0.3);
-    --shadow-glow: 0 0 30px hsl(var(--pista-green) / 0.4);
+    --shadow-cyber: 0 20px 40px -10px hsl(var(--dark-matte-purple) / 0.3);
+    --shadow-glow: 0 0 30px hsl(var(--dark-matte-purple) / 0.4);
     --shadow-deep: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
 
     /* Animation Timings */
@@ -128,8 +128,8 @@ All colors MUST be HSL.
 
   /* Custom Animations */
   @keyframes cyber-glow {
-    0%, 100% { box-shadow: 0 0 20px hsl(var(--pista-green) / 0.3); }
-    50% { box-shadow: 0 0 40px hsl(var(--pista-green) / 0.6); }
+    0%, 100% { box-shadow: 0 0 20px hsl(var(--dark-matte-purple) / 0.3); }
+    50% { box-shadow: 0 0 40px hsl(var(--dark-matte-purple) / 0.6); }
   }
 
   @keyframes float-up {

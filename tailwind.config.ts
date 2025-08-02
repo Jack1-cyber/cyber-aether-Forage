@@ -65,8 +65,8 @@ export default {
 				// Custom Cybersecurity Theme Colors
 				'cyber-purple': 'hsl(var(--cyber-purple))',
 				'cyber-purple-light': 'hsl(var(--cyber-purple-light))',
-				'pista-green': 'hsl(var(--pista-green))',
-				'pista-green-glow': 'hsl(var(--pista-green-glow))',
+				'dark-matte-purple': 'hsl(var(--dark-matte-purple))',
+				'dark-matte-purple-light': 'hsl(var(--dark-matte-purple-light))',
 				'dark-charcoal': 'hsl(var(--dark-charcoal))',
 				'medium-charcoal': 'hsl(var(--medium-charcoal))'
 			},
@@ -93,8 +93,8 @@ export default {
 					}
 				},
 				'cyber-glow': {
-					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--pista-green) / 0.3)' },
-					'50%': { boxShadow: '0 0 40px hsl(var(--pista-green) / 0.6)' }
+					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--dark-matte-purple) / 0.3)' },
+					'50%': { boxShadow: '0 0 40px hsl(var(--dark-matte-purple) / 0.6)' }
 				},
 				'float-up': {
 					'0%': { transform: 'translateY(20px)', opacity: '0' },

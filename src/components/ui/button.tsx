@@ -18,9 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        cyber: "bg-gradient-to-r from-pista-green to-pista-green-glow text-cyber-purple font-bold hover:shadow-glow transform hover:-translate-y-1 transition-all duration-300",
-        cyberOutline: "border-2 border-pista-green bg-transparent text-pista-green hover:bg-pista-green hover:text-cyber-purple hover:shadow-glow transform hover:-translate-y-1 transition-all duration-300",
-        hero: "bg-gradient-to-r from-pista-green via-pista-green-glow to-pista-green text-cyber-purple font-bold text-lg hover:shadow-cyber transform hover:scale-105 transition-all duration-400 cyber-glow",
+        cyber: "bg-gradient-to-r from-dark-matte-purple to-dark-matte-purple-light text-primary-foreground font-bold hover:shadow-glow transform hover:-translate-y-1 transition-all duration-300",
+        cyberOutline: "border-2 border-dark-matte-purple bg-transparent text-dark-matte-purple hover:bg-dark-matte-purple hover:text-primary-foreground hover:shadow-glow transform hover:-translate-y-1 transition-all duration-300",
+        hero: "bg-gradient-to-r from-dark-matte-purple via-dark-matte-purple-light to-dark-matte-purple text-primary-foreground font-bold text-lg hover:shadow-cyber transform hover:scale-105 transition-all duration-400 cyber-glow",
       },
       size: {
         default: "h-10 px-4 py-2",

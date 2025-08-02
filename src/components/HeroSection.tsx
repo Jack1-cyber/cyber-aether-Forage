@@ -19,7 +19,7 @@ const HeroSection = () => {
       subtitle: "Security as a Service",
       icon: Shield, 
       description: "Complete security solutions delivered as managed services",
-      gradient: "from-pista-green/20 to-pista-green-glow/20"
+      gradient: "from-dark-matte-purple/20 to-dark-matte-purple-light/20"
     },
     { 
       title: "Pricing", 
@@ -96,7 +96,7 @@ const HeroSection = () => {
       subtitle: "Our Process",
       icon: Brain, 
       description: "Discover our proven methodology",
-      gradient: "from-pista-green/20 to-pista-green-glow/20"
+      gradient: "from-dark-matte-purple/20 to-dark-matte-purple-light/20"
     }
   ];
 
@@ -114,10 +114,10 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Hero Content */}
         <div className="text-center mb-16 float-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pista-green via-pista-green-glow to-pista-green bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-dark-matte-purple via-dark-matte-purple-light to-dark-matte-purple bg-clip-text text-transparent">
             Cybersecurity
             <span className="block text-4xl md:text-6xl mt-2">
-              Meets <span className="text-pista-green">AI Innovation</span>
+              Meets <span className="text-dark-matte-purple">AI Innovation</span>
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -142,15 +142,15 @@ const HeroSection = () => {
             return (
               <div
                 key={block.title}
-                className={`group relative p-6 rounded-xl bg-gradient-to-br ${block.gradient} backdrop-blur-sm border border-white/10 hover:border-pista-green/40 transition-all duration-500 hover:shadow-glow hover:scale-105 cursor-pointer float-up`}
+                className={`group relative p-6 rounded-xl bg-gradient-to-br ${block.gradient} backdrop-blur-sm border border-white/10 hover:border-dark-matte-purple/40 transition-all duration-500 hover:shadow-glow hover:scale-105 cursor-pointer float-up`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex flex-col items-center text-center space-y-3">
-                  <div className="p-3 rounded-lg bg-pista-green/20 group-hover:bg-pista-green/30 transition-colors duration-300">
-                    <IconComponent className="h-8 w-8 text-pista-green" />
+                  <div className="p-3 rounded-lg bg-dark-matte-purple/20 group-hover:bg-dark-matte-purple/30 transition-colors duration-300">
+                    <IconComponent className="h-8 w-8 text-dark-matte-purple" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-foreground group-hover:text-pista-green transition-colors duration-300">
+                    <h3 className="font-bold text-lg text-foreground group-hover:text-dark-matte-purple transition-colors duration-300">
                       {block.title}
                     </h3>
                     <p className="text-sm text-foreground/60 group-hover:text-foreground/80 transition-colors duration-300">
@@ -163,7 +163,7 @@ const HeroSection = () => {
                 </div>
                 
                 {/* Hover Glow Effect */}
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-pista-green/0 via-pista-green/5 to-pista-green/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-dark-matte-purple/0 via-dark-matte-purple/5 to-dark-matte-purple/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
             );
           })}
@@ -178,7 +178,7 @@ const HeroSection = () => {
             { number: "10M+", label: "Threats Blocked" }
           ].map((stat, index) => (
             <div key={stat.label} className="float-up" style={{ animationDelay: `${1.2 + index * 0.2}s` }}>
-              <div className="text-3xl md:text-4xl font-bold text-pista-green pulse-glow">
+              <div className="text-3xl md:text-4xl font-bold text-dark-matte-purple pulse-glow">
                 {stat.number}
               </div>
               <div className="text-sm text-foreground/60 mt-2">
