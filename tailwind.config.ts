@@ -61,7 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom Cybersecurity Theme Colors
+				'cyber-purple': 'hsl(var(--cyber-purple))',
+				'cyber-purple-light': 'hsl(var(--cyber-purple-light))',
+				'pista-green': 'hsl(var(--pista-green))',
+				'pista-green-glow': 'hsl(var(--pista-green-glow))',
+				'dark-charcoal': 'hsl(var(--dark-charcoal))',
+				'medium-charcoal': 'hsl(var(--medium-charcoal))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +91,31 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'cyber-glow': {
+					'0%, 100%': { boxShadow: '0 0 20px hsl(var(--pista-green) / 0.3)' },
+					'50%': { boxShadow: '0 0 40px hsl(var(--pista-green) / 0.6)' }
+				},
+				'float-up': {
+					'0%': { transform: 'translateY(20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' }
+				},
+				'slide-in-right': {
+					'0%': { transform: 'translateX(100%)', opacity: '0' },
+					'100%': { transform: 'translateX(0)', opacity: '1' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { opacity: '0.8' },
+					'50%': { opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'cyber-glow': 'cyber-glow 2s ease-in-out infinite',
+				'float-up': 'float-up 0.6s ease-out',
+				'slide-in-right': 'slide-in-right 0.6s ease-out',
+				'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
 			}
 		}
 	},
