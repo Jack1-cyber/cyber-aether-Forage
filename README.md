@@ -1,4 +1,4 @@
-# Welcome to your Shih-Tzu Information World
+# Welcome to the CYBER World
 
 ## How can I edit this code?
 
